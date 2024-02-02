@@ -46,3 +46,26 @@ footer {
   padding: 10px;
   background-color: #ead7c3;
 }
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex: 1;
+  flex-basis: 0;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
